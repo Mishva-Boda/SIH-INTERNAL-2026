@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import '@n8n/chat/dist/style.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F8FAFC;
+    color: #111827;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    color: #0B1220 !important;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+  
+  p, span, label {
+    color: #111827;
+  }
+}
+
+/* Primary Design Tokens */
+.bg-primary-blue {
+  background-color: #1769E8;
+}
+
+.hover\:bg-primary-blue-dark:hover {
+  background-color: #1264D6;
+}
+
+.text-primary-blue {
+  color: #1769E8;
+}
+
+.bg-soft-blue {
+  background-color: #EFF6FF;
+}
+
+.border-soft-blue {
+  border-color: #BFDBFE;
+}
+
+/* Card Design System */
+.glass-panel, .glass-card, .soft-card {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.glass-card:hover, .soft-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(23, 105, 232, 0.08);
+  border-color: #93C5FD;
+}
+
+/* Icon Container System */
+.icon-box {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background-color: #EFF6FF;
+  border: 1px solid #DBEAFE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1769E8;
+  flex-shrink: 0;
+}
+
+/* Primary & Secondary Buttons */
+.btn-blue {
+  background-color: #1769E8;
+  color: #FFFFFF !important;
+  border-radius: 9999px;
+  padding: 10px 22px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(23, 105, 232, 0.2);
+}
+
+.btn-blue:hover {
+  background-color: #1264D6;
+  transform: translateY(-1px);
+}
+
+.btn-outline-blue {
+  border: 1px solid #BFDBFE;
+  color: #1769E8 !important;
+  background-color: #EFF6FF;
+  border-radius: 9999px;
+  padding: 10px 22px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-blue:hover {
+  background-color: #DBEAFE;
+}
+
+/* Strict High-Contrast Text Overrides */
+.text-dark-heading {
+  color: #0B1220 !important;
+  font-weight: 700;
+}
+
+.text-dark-body {
+  color: #111827 !important;
+  font-weight: 500;
+}
+
+.text-dark-secondary {
+  color: #374151 !important;
+  font-weight: 500;
+}
+
+.text-dark-label {
+  color: #000000 !important;
+  font-weight: 700;
+}
+
+.text-solid-black {
+  color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+  opacity: 1 !important;
+}
+
+/* Hero Subtitle Exact Rule */
+.hero-content .hero-subtitle {
+  color: #000000 !important;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  font-weight: 700 !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+
+/* 🤖 NEXA AI FLOATING PILL & CHAT POPUP STYLING */
+.nexa-ai-pill-btn {
+  background-color: #1769E8;
+  color: #FFFFFF;
+  box-shadow: 0 8px 24px rgba(23, 105, 232, 0.28);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.nexa-ai-pill-btn:hover {
+  background-color: #1264D6;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(23, 105, 232, 0.35);
+}
+
+.nexa-ai-pill-btn:active {
+  transform: scale(0.98);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1769E8;
+}

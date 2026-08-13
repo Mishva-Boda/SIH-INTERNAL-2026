@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "section": "Core Interests",
+    "question": "What type of problem or task excites you the most when working on a project?",
+    "subtitle": "Select the option that feels most natural to you.",
+    "options": [
+      {
+        "label": "Building smart software algorithms, robotics, or analyzing complex datasets",
+        "category": "Technology & AI",
+        "icon": "Cpu"
+      },
+      {
+        "label": "Designing intuitive visual interfaces, creative graphics, or interactive products",
+        "category": "Design & Innovation",
+        "icon": "Palette"
+      },
+      {
+        "label": "Exploring biological systems, DNA, medicine, or solving health challenges",
+        "category": "Life Sciences & Healthcare",
+        "icon": "Dna"
+      },
+      {
+        "label": "Understanding security systems, hacking mechanisms, or digital defense",
+        "category": "Cybersecurity",
+        "icon": "ShieldCheck"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "Work Style & Environment",
+    "question": "How do you prefer to approach learning a new complex topic?",
+    "subtitle": "Choose your ideal learning workflow.",
+    "options": [
+      {
+        "label": "Hands-on coding, writing scripts, and running live test experiments",
+        "category": "Technology & AI",
+        "icon": "Terminal"
+      },
+      {
+        "label": "Visual sketching, user journey mapping, and building interactive prototypes",
+        "category": "Design & Innovation",
+        "icon": "Figma"
+      },
+      {
+        "label": "Conducting lab experiments, reading research papers, and recording data",
+        "category": "Life Sciences & Healthcare",
+        "icon": "Microscope"
+      },
+      {
+        "label": "Deconstructing systems to find secret flaws or loopholes in security",
+        "category": "Cybersecurity",
+        "icon": "Lock"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "Aptitude & Strengths",
+    "question": "Which subject or activity comes most naturally to you?",
+    "subtitle": "Think about where you perform with minimal friction.",
+    "options": [
+      {
+        "label": "Mathematics, Calculus, Statistics, and Logic Puzzles",
+        "category": "Technology & AI",
+        "icon": "Binary"
+      },
+      {
+        "label": "Art & Craft, UI design tools, Ergonomics, and Aesthetics",
+        "category": "Design & Innovation",
+        "icon": "Sparkles"
+      },
+      {
+        "label": "Biology, Genetics, Organic Chemistry, and Human Anatomy",
+        "category": "Life Sciences & Healthcare",
+        "icon": "HeartPulse"
+      },
+      {
+        "label": "Computer Networks, Linux commands, Logic gates, and System Admin",
+        "category": "Cybersecurity",
+        "icon": "Network"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "section": "Future Goals & Impact",
+    "question": "What kind of real-world impact do you want your future career to have?",
+    "subtitle": "Your long-term aspiration and legacy.",
+    "options": [
+      {
+        "label": "Create revolutionary AI models that automate and empower global industries",
+        "category": "Technology & AI",
+        "icon": "Zap"
+      },
+      {
+        "label": "Craft beautiful human-centered products that millions of users love using daily",
+        "category": "Design & Innovation",
+        "icon": "Smile"
+      },
+      {
+        "label": "Develop cures for genetic diseases or engineer sustainable bio-tech solutions",
+        "category": "Life Sciences & Healthcare",
+        "icon": "Activity"
+      },
+      {
+        "label": "Safeguard national infrastructure, financial networks, and privacy against cyber threats",
+        "category": "Cybersecurity",
+        "icon": "ShieldAlert"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "section": "Ideal Workplace",
+    "question": "Where do you see yourself thriving 5 years from now?",
+    "subtitle": "Your dream working environment.",
+    "options": [
+      {
+        "label": "Silicon Valley tech lab or fast-paced AI engineering startup",
+        "category": "Technology & AI",
+        "icon": "Globe"
+      },
+      {
+        "label": "A vibrant design studio, innovation lab, or global product design firm",
+        "category": "Design & Innovation",
+        "icon": "Compass"
+      },
+      {
+        "label": "Advanced research institute, bio-tech lab, or specialized hospital wing",
+        "category": "Life Sciences & Healthcare",
+        "icon": "Building2"
+      },
+      {
+        "label": "High-security Cyber Operations Center (SOC) or defense intelligence agency",
+        "category": "Cybersecurity",
+        "icon": "Server"
+      }
+    ]
+  }
+]

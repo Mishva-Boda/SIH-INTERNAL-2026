@@ -1,0 +1,36 @@
+{
+  "profile": {
+    "name": "Jay Purohit",
+    "grade": "Class 12 - Science (PCM)",
+    "school": "Delhi Public School, Vadodara, Gujarat",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    "email": "jay.purohit@example.com",
+    "parentName": "Rajesh & Meena Purohit",
+    "targetExam": "JEE Main & Advanced 2027",
+    "overallScore": 94
+  },
+  "todayGoals": [
+    { "id": 1, "title": "Solve 15 Calculus Integration Questions", "done": true, "tag": "Maths" },
+    { "id": 2, "title": "Complete AI Career Assessment Stage 2", "done": true, "tag": "Career" },
+    { "id": 3, "title": "Read Chapter 4 Physics: Rotational Motion", "done": false, "tag": "Physics" },
+    { "id": 4, "title": "Practice Python Matplotlib Data Visuals", "done": false, "tag": "Coding" }
+  ],
+  "upcomingExams": [
+    { "name": "JEE Main Phase 1", "date": "Jan 24, 2027", "daysLeft": 170, "subject": "PCM" },
+    { "name": "BITSAT Session 1", "date": "May 18, 2027", "daysLeft": 284, "subject": "PCM + Aptitude" },
+    { "name": "CUET Science", "date": "Jun 02, 2027", "daysLeft": 299, "subject": "Science Domains" }
+  ],
+  "skills": [
+    { "skill": "Python & Logic", "level": 88, "target": 95 },
+    { "skill": "Calculus & Algebra", "level": 92, "target": 95 },
+    { "skill": "Data Structures", "level": 75, "target": 90 },
+    { "skill": "Physics Concepts", "level": 84, "target": 92 },
+    { "skill": "UI Design & Figma", "level": 68, "target": 85 }
+  ],
+  "badges": [
+    { "id": 1, "name": "AI Pathfinder", "icon": "Compass", "desc": "Completed 1st Full Assessment" },
+    { "id": 2, "name": "Math Wizard", "icon": "Award", "desc": "Scored 90%+ in Maths Aptitude" },
+    { "id": 3, "name": "Career Explorer", "icon": "Rocket", "desc": "Explored 10+ Career Paths" },
+    { "id": 4, "name": "Scholarship Ready", "icon": "CheckCircle", "desc": "Eligibility Verified for 4 Grants" }
+  ]
+}
